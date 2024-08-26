@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Restaurante_Tarea_2_Individual/1.0.0": {
+        "dependencies": {
+          "Restaurant": "1.0.0"
+        },
+        "runtime": {
+          "Restaurante_Tarea_2_Individual.dll": {}
+        }
+      },
+      "Restaurant/1.0.0": {
+        "runtime": {
+          "Restaurant.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Restaurante_Tarea_2_Individual/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Restaurant/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
