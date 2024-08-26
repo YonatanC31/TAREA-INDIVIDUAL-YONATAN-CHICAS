@@ -2,6 +2,7 @@
 using Restaurant.Services;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace Restaurante_Tarea_2_Individual.UI
@@ -10,11 +11,17 @@ namespace Restaurante_Tarea_2_Individual.UI
     {
         private readonly OrderService _orderService;
 
+        // Evento personalizado 1 para imprimir el ticket.
+        public event EventHandler<TicketEventArgs> ImprimirTicket;
+
         public OrdenForm()
         {
             InitializeComponent();
             _orderService = new OrderService();
-            button1.Click += new EventHandler(IngresarOrden_Click); 
+
+            ImprimirTicket += OrdenForm_ImprimirTicket;
+
+            button1.Click += new EventHandler(IngresarOrden_Click);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -58,13 +65,42 @@ namespace Restaurante_Tarea_2_Individual.UI
             }
             mensajeOrden += $"\nTotal: ${totalOrden}";
 
-
             DialogResult resultado = MessageBox.Show($"¿Confirmar la siguiente orden?\n\n{mensajeOrden}", "Confirmar Orden", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (resultado == DialogResult.Yes)
             {
+                OnImprimirTicket(new TicketEventArgs(mesaSeleccionada, itemsQuantities, totalOrden));
+
                 MessageBox.Show("¡Orden ingresada con éxito!", "Orden Ingresada", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 ResetFormulario();
+            }
+        }
+
+        protected virtual void OnImprimirTicket(TicketEventArgs e)
+        {
+            ImprimirTicket?.Invoke(this, e);
+        }
+
+        private void OrdenForm_ImprimirTicket(object sender, TicketEventArgs e)
+        {
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "PDF files (*.pdf)|*.pdf";
+                saveFileDialog.Title = "Guardar Ticket";
+                saveFileDialog.FileName = $"Orden_{e.MesaSeleccionada}_{DateTime.Now:yyyyMMddHHmmss}.pdf";
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string pdfPath = saveFileDialog.FileName;
+                    TicketService ticketService = new TicketService();
+                    ticketService.GenerarPDF(e, pdfPath);
+
+                    MessageBox.Show($"El ticket ha sido guardado como PDF en {pdfPath}", "Ticket Guardado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Guardado cancelado.", "Cancelado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 

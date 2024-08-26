@@ -78,13 +78,13 @@
             Ordenpanel.Controls.Add(label2);
             Ordenpanel.Location = new Point(0, 0);
             Ordenpanel.Name = "Ordenpanel";
-            Ordenpanel.Size = new Size(643, 392);
+            Ordenpanel.Size = new Size(739, 483);
             Ordenpanel.TabIndex = 0;
             // 
             // HamburgesanumericUpDown
             // 
             HamburgesanumericUpDown.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            HamburgesanumericUpDown.Location = new Point(44, 275);
+            HamburgesanumericUpDown.Location = new Point(80, 339);
             HamburgesanumericUpDown.Name = "HamburgesanumericUpDown";
             HamburgesanumericUpDown.Size = new Size(58, 34);
             HamburgesanumericUpDown.TabIndex = 48;
@@ -93,7 +93,7 @@
             // TacosnumericUpDown
             // 
             TacosnumericUpDown.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            TacosnumericUpDown.Location = new Point(163, 275);
+            TacosnumericUpDown.Location = new Point(199, 339);
             TacosnumericUpDown.Name = "TacosnumericUpDown";
             TacosnumericUpDown.Size = new Size(58, 34);
             TacosnumericUpDown.TabIndex = 47;
@@ -102,7 +102,7 @@
             // BurritonumericUpDown3
             // 
             BurritonumericUpDown3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BurritonumericUpDown3.Location = new Point(285, 275);
+            BurritonumericUpDown3.Location = new Point(321, 339);
             BurritonumericUpDown3.Name = "BurritonumericUpDown3";
             BurritonumericUpDown3.Size = new Size(58, 34);
             BurritonumericUpDown3.TabIndex = 46;
@@ -111,7 +111,7 @@
             // PepsinumericUpDown
             // 
             PepsinumericUpDown.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            PepsinumericUpDown.Location = new Point(414, 275);
+            PepsinumericUpDown.Location = new Point(450, 339);
             PepsinumericUpDown.Name = "PepsinumericUpDown";
             PepsinumericUpDown.Size = new Size(58, 34);
             PepsinumericUpDown.TabIndex = 45;
@@ -120,7 +120,7 @@
             // CocacolanumericUpDown
             // 
             CocacolanumericUpDown.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            CocacolanumericUpDown.Location = new Point(546, 275);
+            CocacolanumericUpDown.Location = new Point(582, 339);
             CocacolanumericUpDown.Name = "CocacolanumericUpDown";
             CocacolanumericUpDown.Size = new Size(58, 34);
             CocacolanumericUpDown.TabIndex = 44;
@@ -132,7 +132,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(26, 77);
+            label3.Location = new Point(62, 141);
             label3.Name = "label3";
             label3.Size = new Size(421, 31);
             label3.TabIndex = 43;
@@ -145,7 +145,7 @@
             comboBox1.ForeColor = Color.White;
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Mesa 1", "Mesa 2", "Mesa 3", "Mesa 4" });
-            comboBox1.Location = new Point(453, 76);
+            comboBox1.Location = new Point(489, 140);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(151, 36);
             comboBox1.TabIndex = 42;
@@ -158,7 +158,7 @@
             label1.BorderStyle = BorderStyle.FixedSingle;
             label1.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(220, 23);
+            label1.Location = new Point(256, 89);
             label1.Name = "label1";
             label1.Size = new Size(210, 39);
             label1.TabIndex = 41;
@@ -169,11 +169,11 @@
             button1.BackColor = SystemColors.ActiveCaptionText;
             button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(220, 330);
+            button1.Location = new Point(174, 412);
             button1.Name = "button1";
-            button1.Size = new Size(175, 40);
+            button1.Size = new Size(367, 40);
             button1.TabIndex = 40;
-            button1.Text = "INGRESAR ORDEN";
+            button1.Text = "INGRESAR ORDEN E IMPRIMIR";
             button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox
@@ -182,7 +182,7 @@
             pictureBox.ErrorImage = null;
             pictureBox.Image = (Image)resources.GetObject("pictureBox.Image");
             pictureBox.InitialImage = Properties.Resources.Logo__1_;
-            pictureBox.Location = new Point(386, 158);
+            pictureBox.Location = new Point(422, 222);
             pictureBox.Name = "pictureBox";
             pictureBox.Size = new Size(111, 111);
             pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -195,7 +195,7 @@
             pictureBox6.ErrorImage = null;
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
             pictureBox6.InitialImage = Properties.Resources.Logo__1_;
-            pictureBox6.Location = new Point(512, 158);
+            pictureBox6.Location = new Point(548, 222);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(115, 111);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -208,7 +208,7 @@
             BurritonumericUpDown.ErrorImage = null;
             BurritonumericUpDown.Image = (Image)resources.GetObject("BurritonumericUpDown.Image");
             BurritonumericUpDown.InitialImage = Properties.Resources.Logo__1_;
-            BurritonumericUpDown.Location = new Point(261, 158);
+            BurritonumericUpDown.Location = new Point(297, 222);
             BurritonumericUpDown.Name = "BurritonumericUpDown";
             BurritonumericUpDown.Size = new Size(110, 111);
             BurritonumericUpDown.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -221,7 +221,7 @@
             pictureBox4.ErrorImage = null;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.InitialImage = Properties.Resources.Logo__1_;
-            pictureBox4.Location = new Point(138, 158);
+            pictureBox4.Location = new Point(174, 222);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(109, 111);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -234,7 +234,7 @@
             pictureBox2.ErrorImage = null;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.InitialImage = Properties.Resources.Logo__1_;
-            pictureBox2.Location = new Point(15, 158);
+            pictureBox2.Location = new Point(51, 222);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(109, 111);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -247,7 +247,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(238, 119);
+            label2.Location = new Point(274, 183);
             label2.Name = "label2";
             label2.Size = new Size(192, 31);
             label2.TabIndex = 34;
@@ -259,7 +259,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             BackgroundImage = Properties.Resources.Backgorund;
-            ClientSize = new Size(635, 381);
+            ClientSize = new Size(736, 483);
             Controls.Add(Ordenpanel);
             Name = "OrdenForm";
             Text = "OrdenForm";

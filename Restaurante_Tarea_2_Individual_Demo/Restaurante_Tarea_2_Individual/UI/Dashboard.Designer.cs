@@ -31,6 +31,11 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             panel1 = new Panel();
+            panelInfoButton = new Panel();
+            pictureBox1 = new PictureBox();
+            button8 = new Button();
+            InformationButton = new Button();
+            exitbutton = new Button();
             pictureBox6 = new PictureBox();
             Home = new Button();
             menuContainer = new Panel();
@@ -41,16 +46,16 @@
             pictureBox2 = new PictureBox();
             MenuButton = new Button();
             panel4 = new Panel();
-            exitbutton = new Button();
             pictureBox3 = new PictureBox();
             Logo = new PictureBox();
-            button8 = new Button();
             panel2 = new Panel();
             label1 = new Label();
             menutransition = new System.Windows.Forms.Timer(components);
             PrincipalContainer = new Panel();
             ImagenHome = new PictureBox();
             panel1.SuspendLayout();
+            panelInfoButton.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             menuContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -67,17 +72,90 @@
             // panel1
             // 
             panel1.BackColor = Color.Black;
+            panel1.Controls.Add(panelInfoButton);
+            panel1.Controls.Add(exitbutton);
             panel1.Controls.Add(pictureBox6);
             panel1.Controls.Add(Home);
             panel1.Controls.Add(menuContainer);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(Logo);
-            panel1.Controls.Add(button8);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(179, 469);
+            panel1.Size = new Size(179, 597);
             panel1.TabIndex = 0;
+            // 
+            // panelInfoButton
+            // 
+            panelInfoButton.BackColor = Color.Transparent;
+            panelInfoButton.Controls.Add(pictureBox1);
+            panelInfoButton.Controls.Add(button8);
+            panelInfoButton.Controls.Add(InformationButton);
+            panelInfoButton.Location = new Point(-6, 506);
+            panelInfoButton.Name = "panelInfoButton";
+            panelInfoButton.Size = new Size(235, 45);
+            panelInfoButton.TabIndex = 10;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.ErrorImage = null;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(16, 11);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(29, 26);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 9;
+            pictureBox1.TabStop = false;
+            // 
+            // button8
+            // 
+            button8.BackColor = Color.Black;
+            button8.FlatAppearance.BorderSize = 0;
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button8.ForeColor = SystemColors.Control;
+            button8.ImageAlign = ContentAlignment.MiddleLeft;
+            button8.Location = new Point(36, 8);
+            button8.Margin = new Padding(0);
+            button8.Name = "button8";
+            button8.Size = new Size(0, 0);
+            button8.TabIndex = 6;
+            button8.Text = "Menu principal";
+            button8.UseVisualStyleBackColor = false;
+            // 
+            // InformationButton
+            // 
+            InformationButton.BackColor = Color.Black;
+            InformationButton.FlatAppearance.BorderSize = 0;
+            InformationButton.FlatStyle = FlatStyle.Flat;
+            InformationButton.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            InformationButton.ForeColor = SystemColors.Control;
+            InformationButton.ImageAlign = ContentAlignment.MiddleRight;
+            InformationButton.Location = new Point(3, 4);
+            InformationButton.Margin = new Padding(0);
+            InformationButton.Name = "InformationButton";
+            InformationButton.Size = new Size(220, 38);
+            InformationButton.TabIndex = 8;
+            InformationButton.Text = "Sobre nosotros";
+            InformationButton.UseVisualStyleBackColor = false;
+            InformationButton.Click += InformationButton_Click;
+            // 
+            // exitbutton
+            // 
+            exitbutton.BackColor = Color.Black;
+            exitbutton.FlatAppearance.BorderSize = 0;
+            exitbutton.FlatStyle = FlatStyle.Flat;
+            exitbutton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            exitbutton.ForeColor = SystemColors.Control;
+            exitbutton.Location = new Point(36, 554);
+            exitbutton.Margin = new Padding(0);
+            exitbutton.Name = "exitbutton";
+            exitbutton.Size = new Size(125, 33);
+            exitbutton.TabIndex = 5;
+            exitbutton.Text = "Cerrar Sesion";
+            exitbutton.UseVisualStyleBackColor = false;
+            exitbutton.Click += exitbutton_Click;
             // 
             // pictureBox6
             // 
@@ -99,7 +177,7 @@
             Home.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Home.ForeColor = SystemColors.Control;
             Home.ImageAlign = ContentAlignment.MiddleRight;
-            Home.Location = new Point(-23, 159);
+            Home.Location = new Point(-16, 160);
             Home.Margin = new Padding(0);
             Home.Name = "Home";
             Home.Size = new Size(220, 38);
@@ -212,34 +290,17 @@
             // panel4
             // 
             panel4.BackColor = Color.Transparent;
-            panel4.Controls.Add(exitbutton);
             panel4.Controls.Add(pictureBox3);
-            panel4.Location = new Point(3, 416);
+            panel4.Location = new Point(3, 543);
             panel4.Name = "panel4";
             panel4.Size = new Size(235, 45);
             panel4.TabIndex = 4;
-            // 
-            // exitbutton
-            // 
-            exitbutton.BackColor = Color.Black;
-            exitbutton.FlatAppearance.BorderSize = 0;
-            exitbutton.FlatStyle = FlatStyle.Flat;
-            exitbutton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            exitbutton.ForeColor = SystemColors.Control;
-            exitbutton.Location = new Point(40, 7);
-            exitbutton.Margin = new Padding(0);
-            exitbutton.Name = "exitbutton";
-            exitbutton.Size = new Size(125, 33);
-            exitbutton.TabIndex = 5;
-            exitbutton.Text = "Cerrar Sesion";
-            exitbutton.UseVisualStyleBackColor = false;
-            exitbutton.Click += exitbutton_Click;
             // 
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(6, 11);
+            pictureBox3.Location = new Point(6, 14);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(29, 26);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -259,22 +320,6 @@
             Logo.TabIndex = 0;
             Logo.TabStop = false;
             // 
-            // button8
-            // 
-            button8.BackColor = Color.Black;
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button8.ForeColor = SystemColors.Control;
-            button8.ImageAlign = ContentAlignment.MiddleLeft;
-            button8.Location = new Point(29, 302);
-            button8.Margin = new Padding(0);
-            button8.Name = "button8";
-            button8.Size = new Size(0, 0);
-            button8.TabIndex = 6;
-            button8.Text = "Menu principal";
-            button8.UseVisualStyleBackColor = false;
-            // 
             // panel2
             // 
             panel2.BackColor = SystemColors.ActiveCaptionText;
@@ -282,7 +327,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(179, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(630, 41);
+            panel2.Size = new Size(766, 41);
             panel2.TabIndex = 1;
             // 
             // label1
@@ -290,7 +335,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ControlLightLight;
-            label1.Location = new Point(73, 9);
+            label1.Location = new Point(133, 9);
             label1.Name = "label1";
             label1.Size = new Size(487, 23);
             label1.TabIndex = 0;
@@ -307,7 +352,7 @@
             PrincipalContainer.Dock = DockStyle.Fill;
             PrincipalContainer.Location = new Point(179, 41);
             PrincipalContainer.Name = "PrincipalContainer";
-            PrincipalContainer.Size = new Size(630, 428);
+            PrincipalContainer.Size = new Size(766, 556);
             PrincipalContainer.TabIndex = 2;
             // 
             // ImagenHome
@@ -315,7 +360,7 @@
             ImagenHome.Image = (Image)resources.GetObject("ImagenHome.Image");
             ImagenHome.Location = new Point(0, 0);
             ImagenHome.Name = "ImagenHome";
-            ImagenHome.Size = new Size(630, 434);
+            ImagenHome.Size = new Size(766, 556);
             ImagenHome.SizeMode = PictureBoxSizeMode.StretchImage;
             ImagenHome.TabIndex = 0;
             ImagenHome.TabStop = false;
@@ -324,13 +369,15 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(809, 469);
+            ClientSize = new Size(945, 597);
             Controls.Add(PrincipalContainer);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Dashboard";
             Text = "Dashboard";
             panel1.ResumeLayout(false);
+            panelInfoButton.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             menuContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
@@ -369,5 +416,8 @@
         private Button Home;
         private Panel PrincipalContainer;
         private PictureBox ImagenHome;
+        private PictureBox pictureBox1;
+        private Button InformationButton;
+        private Panel panelInfoButton;
     }
 }

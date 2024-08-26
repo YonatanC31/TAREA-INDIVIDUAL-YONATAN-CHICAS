@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chica\\Desktop\\CICLO 02 2024\\Programacion Orientada a Eventos\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\Restaurant.csproj": {}
+    "C:\\Users\\chica\\Desktop\\TAREA-INDIVIDUAL-YONATAN-CHICAS\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\Restaurant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chica\\Desktop\\CICLO 02 2024\\Programacion Orientada a Eventos\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\Restaurant.csproj": {
+    "C:\\Users\\chica\\Desktop\\TAREA-INDIVIDUAL-YONATAN-CHICAS\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\Restaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chica\\Desktop\\CICLO 02 2024\\Programacion Orientada a Eventos\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\Restaurant.csproj",
+        "projectUniqueName": "C:\\Users\\chica\\Desktop\\TAREA-INDIVIDUAL-YONATAN-CHICAS\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\Restaurant.csproj",
         "projectName": "Restaurant",
-        "projectPath": "C:\\Users\\chica\\Desktop\\CICLO 02 2024\\Programacion Orientada a Eventos\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\Restaurant.csproj",
+        "projectPath": "C:\\Users\\chica\\Desktop\\TAREA-INDIVIDUAL-YONATAN-CHICAS\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\Restaurant.csproj",
         "packagesPath": "C:\\Users\\chica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chica\\Desktop\\CICLO 02 2024\\Programacion Orientada a Eventos\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\obj\\",
+        "outputPath": "C:\\Users\\chica\\Desktop\\TAREA-INDIVIDUAL-YONATAN-CHICAS\\Restaurante_Tarea_2_Individual_Demo\\Restaurant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -50,6 +50,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

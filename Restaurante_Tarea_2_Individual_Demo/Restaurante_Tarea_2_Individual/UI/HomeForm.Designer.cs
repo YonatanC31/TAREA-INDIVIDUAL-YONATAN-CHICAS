@@ -38,7 +38,7 @@
             ImagenHome.Image = (Image)resources.GetObject("ImagenHome.Image");
             ImagenHome.Location = new Point(-13, -8);
             ImagenHome.Name = "ImagenHome";
-            ImagenHome.Size = new Size(661, 446);
+            ImagenHome.Size = new Size(820, 558);
             ImagenHome.SizeMode = PictureBoxSizeMode.StretchImage;
             ImagenHome.TabIndex = 1;
             ImagenHome.TabStop = false;
@@ -47,7 +47,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(649, 432);
+            ClientSize = new Size(805, 551);
             Controls.Add(ImagenHome);
             Name = "HomeForm";
             Text = "Home";

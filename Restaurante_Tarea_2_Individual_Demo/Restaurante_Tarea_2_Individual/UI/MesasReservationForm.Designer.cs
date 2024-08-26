@@ -64,13 +64,13 @@
             reservationpanel.Controls.Add(pictureBox2);
             reservationpanel.Location = new Point(-7, 3);
             reservationpanel.Name = "reservationpanel";
-            reservationpanel.Size = new Size(643, 390);
+            reservationpanel.Size = new Size(741, 504);
             reservationpanel.TabIndex = 52;
             // 
             // mesa4
             // 
             mesa4.AutoSize = true;
-            mesa4.Location = new Point(425, 311);
+            mesa4.Location = new Point(500, 399);
             mesa4.Name = "mesa4";
             mesa4.Size = new Size(18, 17);
             mesa4.TabIndex = 84;
@@ -79,7 +79,7 @@
             // mesa2
             // 
             mesa2.AutoSize = true;
-            mesa2.Location = new Point(424, 194);
+            mesa2.Location = new Point(500, 250);
             mesa2.Name = "mesa2";
             mesa2.Size = new Size(18, 17);
             mesa2.TabIndex = 83;
@@ -90,7 +90,7 @@
             ContinuarReservationButton.BackColor = SystemColors.ActiveCaptionText;
             ContinuarReservationButton.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold);
             ContinuarReservationButton.ForeColor = Color.White;
-            ContinuarReservationButton.Location = new Point(242, 339);
+            ContinuarReservationButton.Location = new Point(277, 432);
             ContinuarReservationButton.Name = "ContinuarReservationButton";
             ContinuarReservationButton.Size = new Size(162, 30);
             ContinuarReservationButton.TabIndex = 82;
@@ -101,7 +101,7 @@
             // mesa3
             // 
             mesa3.AutoSize = true;
-            mesa3.Location = new Point(289, 311);
+            mesa3.Location = new Point(290, 399);
             mesa3.Name = "mesa3";
             mesa3.Size = new Size(18, 17);
             mesa3.TabIndex = 81;
@@ -110,7 +110,7 @@
             // mesa1
             // 
             mesa1.AutoSize = true;
-            mesa1.Location = new Point(289, 194);
+            mesa1.Location = new Point(314, 250);
             mesa1.Name = "mesa1";
             mesa1.Size = new Size(18, 17);
             mesa1.TabIndex = 80;
@@ -122,9 +122,9 @@
             pictureBox4.ErrorImage = null;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
             pictureBox4.InitialImage = Properties.Resources.Logo__1_;
-            pictureBox4.Location = new Point(334, 217);
+            pictureBox4.Location = new Point(373, 273);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(109, 111);
+            pictureBox4.Size = new Size(145, 143);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 79;
             pictureBox4.TabStop = false;
@@ -135,9 +135,9 @@
             pictureBox3.ErrorImage = null;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.InitialImage = Properties.Resources.Logo__1_;
-            pictureBox3.Location = new Point(198, 217);
+            pictureBox3.Location = new Point(180, 273);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(109, 111);
+            pictureBox3.Size = new Size(152, 143);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 78;
             pictureBox3.TabStop = false;
@@ -148,9 +148,9 @@
             pictureBox1.ErrorImage = null;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.InitialImage = Properties.Resources.Logo__1_;
-            pictureBox1.Location = new Point(334, 100);
+            pictureBox1.Location = new Point(373, 130);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(109, 111);
+            pictureBox1.Size = new Size(145, 137);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 77;
             pictureBox1.TabStop = false;
@@ -161,7 +161,7 @@
             SeleccionMesasLabel.BackColor = Color.Transparent;
             SeleccionMesasLabel.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             SeleccionMesasLabel.ForeColor = Color.White;
-            SeleccionMesasLabel.Location = new Point(111, 60);
+            SeleccionMesasLabel.Location = new Point(128, 74);
             SeleccionMesasLabel.Name = "SeleccionMesasLabel";
             SeleccionMesasLabel.Size = new Size(445, 31);
             SeleccionMesasLabel.TabIndex = 76;
@@ -175,7 +175,7 @@
             ReservationTitle.BorderStyle = BorderStyle.FixedSingle;
             ReservationTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             ReservationTitle.ForeColor = Color.White;
-            ReservationTitle.Location = new Point(198, 21);
+            ReservationTitle.Location = new Point(247, 21);
             ReservationTitle.Name = "ReservationTitle";
             ReservationTitle.Size = new Size(230, 39);
             ReservationTitle.TabIndex = 75;
@@ -187,9 +187,9 @@
             pictureBox2.ErrorImage = null;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.InitialImage = Properties.Resources.Logo__1_;
-            pictureBox2.Location = new Point(198, 100);
+            pictureBox2.Location = new Point(180, 130);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(109, 111);
+            pictureBox2.Size = new Size(152, 137);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 74;
             pictureBox2.TabStop = false;
@@ -199,7 +199,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Backgorund;
-            ClientSize = new Size(635, 381);
+            ClientSize = new Size(733, 506);
             Controls.Add(reservationpanel);
             Name = "MesasReservationForm";
             Text = "MesasReservationForm";

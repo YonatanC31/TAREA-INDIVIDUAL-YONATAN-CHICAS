@@ -17,15 +17,29 @@ namespace Restaurante_Tarea_2_Individual.UI
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
         {
-            Application.Exit();
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            PanelLogin.Controls.Add(childForm);
+            PanelLogin.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void IniciodesesionButton_Click(object sender, EventArgs e)
         {
-            Dashboard dashboard = new Dashboard();
-            dashboard.Show();
+            openChildForm(new Dashboard());
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

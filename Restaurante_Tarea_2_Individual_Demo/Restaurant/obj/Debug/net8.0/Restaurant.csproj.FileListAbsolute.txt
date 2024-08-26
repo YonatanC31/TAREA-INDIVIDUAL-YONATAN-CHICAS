@@ -9,3 +9,29 @@ C:\Users\chica\Desktop\CICLO 02 2024\Programacion Orientada a Eventos\Restaurant
 C:\Users\chica\Desktop\CICLO 02 2024\Programacion Orientada a Eventos\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\refint\Restaurant.dll
 C:\Users\chica\Desktop\CICLO 02 2024\Programacion Orientada a Eventos\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.pdb
 C:\Users\chica\Desktop\CICLO 02 2024\Programacion Orientada a Eventos\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\ref\Restaurant.dll
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\bin\Debug\net8.0\Restaurant.deps.json
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\bin\Debug\net8.0\Restaurant.dll
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\bin\Debug\net8.0\Restaurant.pdb
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.AssemblyInfoInputs.cache
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.AssemblyInfo.cs
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.sourcelink.json
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.dll
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\refint\Restaurant.dll
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.pdb
+C:\Users\chica\Source\Repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\ref\Restaurant.dll
+C:\Users\chica\source\repos\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.csproj.AssemblyReference.cache
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\bin\Debug\net8.0\Restaurant.deps.json
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\bin\Debug\net8.0\Restaurant.dll
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\bin\Debug\net8.0\Restaurant.pdb
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.csproj.AssemblyReference.cache
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.AssemblyInfoInputs.cache
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.AssemblyInfo.cs
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.csproj.CoreCompileInputs.cache
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.sourcelink.json
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.dll
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\refint\Restaurant.dll
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\Restaurant.pdb
+C:\Users\chica\Desktop\TAREA-INDIVIDUAL-YONATAN-CHICAS\Restaurante_Tarea_2_Individual_Demo\Restaurant\obj\Debug\net8.0\ref\Restaurant.dll

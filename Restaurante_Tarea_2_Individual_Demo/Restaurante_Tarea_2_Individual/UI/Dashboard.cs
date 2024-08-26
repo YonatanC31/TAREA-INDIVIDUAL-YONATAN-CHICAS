@@ -81,7 +81,12 @@ namespace Restaurante_Tarea_2_Individual.UI
 
         private void ReservarButton_Click(object sender, EventArgs e)
         {
-            openChildForm (new MesasReservationForm());
+            openChildForm(new MesasReservationForm());
+        }
+
+        private void InformationButton_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Informationform());
         }
     }
 }
