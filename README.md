@@ -1,2 +1,2 @@
 Sistema de administracion del Restaurante La Choza de Don Visita.
-Alumno: Yonatan Agustin Chicas Amaya U20211000
+Alumno: Yonatan Agustin Chicas Amaya Codigo U20211000
